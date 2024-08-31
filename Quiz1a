@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+//Ryan Miller
+//Sean Murphy
+
+int main()
+
+{
+	double first;
+	double second;
+	double answer;
+	char operartion;
+
+	cout << "Plaese input first number ";
+		cin >> first;
+		cout << "Please enter second number ";
+		cin >> second;
+		cout << "Please input operation ";
+		cin >> operartion;
+
+		if (operartion == '+')
+		{
+			answer = first + second;
+			cout << answer;
+
+		}
+		
+		else if (operartion == '-')
+		{
+			answer = first - second;
+			cout << answer;
+
+		}
+		else if (operartion == '*')
+		{
+			answer = first * second;
+			cout << answer;
+
+		}
+		else if (operartion == '/')
+		{
+			answer = first / second;
+			cout << answer;
+
+		}
+		return 0;
+}
